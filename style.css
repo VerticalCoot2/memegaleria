@@ -1,0 +1,101 @@
+body
+{
+    background-color: rgb(78, 199, 159);
+}
+
+div
+{
+    display: flex;
+}
+
+#mainDiv
+{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.display
+{
+    flex-direction: column;
+    transition-duration: 0.25s;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 100% 0px 0px 0px white;
+    /*border-radius: 50px;*/
+    gap: 20px;
+}
+
+.kepDiv
+{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transition-duration: 0.2;
+    /*box-shadow: 0px 0px 30px 30px rgba(255, 255, 255, 0);*/
+    gap: 5px;
+    
+}
+
+/*.kepDiv:hover
+{
+    box-shadow: 0px 0px 30px 30px rgb(255, 255, 255);
+}*/
+
+.kepDiv img
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 89, 255, 0.4); /* Black w/ opacity */
+  }
+.gep
+{
+    gap: 10px;
+}
+  /* Modal Content/Box */
+  .modal-content {
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: max-content; /* Could be more or less, depending on screen size */
+    height: max-content;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#fejlec
+{
+    flex-direction: row;
+}
+
